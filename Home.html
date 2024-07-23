@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <Style>
+        body{
+            background-color: rgba(0, 0, 0, 0.844);
+        }
+        .card{
+            display: flex;
+            margin: 20px;
+            justify-content: center;
+            align-self: center;
+            box-shadow: 5px 5px 15px whitesmoke;
+            background-color: black;
+            border-radius: 20px;
+            height: 450px;
+
+        }
+        .navbar{
+          background-color: rgba(0, 0, 0, 0.844);
+          box-shadow: 5px 5px 10px whitesmoke;
+
+        }
+        .nav-link{
+          color: red;
+          font-weight:bold ;
+          font-size: larger;
+        }
+        .nav-link:hover{
+          color: red;
+        }
+        .img{
+           object-fit: cover;
+        }
+       .dropdown-menu{
+        background-color: black;
+       }
+       .dropdown-item{
+        color: white;
+       }
+       
+        .card:hover{
+            cursor: pointer;
+        }
+       .nav-link:hover{
+        color: red;
+       }
+       .dropdown-item:hover{
+        color: red;
+       }
+       #searchitems{
+        padding-right: 50px;
+        border-radius: 15px;
+        padding-left: 20px;
+       }
+       .btn{
+        border-radius: 25px;
+       }
+              
+    </Style>
+</head>
+<body>
+<!-- navbar open -->
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <img src="https://e1.pxfuel.com/desktop-wallpaper/207/260/desktop-wallpaper-mahindra-rise-logo-png-png.jpg" alt="" width="20%" class="p-2"> 
+
+  <div class="box">
+    <form class="d-flex  " role="search">
+        <input style="align-items: center;" id="searchitems" class="form-control me-2" type="search" placeholder="Search Cars" aria-label="Search">
+        <button style="background-color: red; color: white;" class="btn btn-outline" type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+     <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="Home.html"><i class="bi bi-house"></i>Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="AboutUs.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="mailto:21ag1a6615@gmail.com"><i class="bi bi-envelope-at"></i>Mail</a></li>
+                      <li><a class="dropdown-item" href="tel:8179882269"><i class="bi bi-person-lines-fill"></i>Contact</a></li>
+                      <li><a class="dropdown-item" href="Login.html"><i class="bi bi-box-arrow-left"></i>Log Out</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<!--navbar close -->
+
+<!--Cards open-->
+<div class="container container-fluid">
+  <!--row1 start-->
+    <div class="row  d-flex justify-content-center align-items-center p-3">
+      <h4 class=" p-3" style="color: white;">Mahindra Car Models And Prices In India
+      </h4>
+        <div class="col-mb-4 col-lg-4    card " style="width: 23rem;">
+            <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fxuv-3xo%2Fmahindra-xuv-3xo.jpg%3Fv%3D28&w=1080&q=75" alt="" width="100%">
+            <h3 class="" style="color: white; text-align: start;">Mahindra XUV 3XO</h3>
+                 <p class="p" style="color:white;">Petrol, Diesel
+                  AMT, Automatic, Manual</p>
+                  <div class="row">
+                    <div class="col" style="color: white;">Ex-Showroom Price
+                      <p> 7.49 - 15.49 Lakh</p>
+                    </div>
+                    <div class="col" style="color: white;">EMI Starts at
+                      <p>15,690</p>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col py-2">
+                        <a href="" style="text-decoration: none; color: white;">Compare</a>
+                      </div>
+                      <div class="col py-2">
+                        <a href="" style="text-decoration: none; color: white;">Variants</a>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+
+
+
+        <div class="col-mb-4 col-lg-4  card "style="width: 23rem;">
+          <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fscorpio-classic%2Fmahindra-scorpio-classic.jpg%3Fv%3D7&w=1080&q=75" alt="" width="100%">
+          <h3 class="" style="color: white;">Mahindra Scorpio Classic </h3>
+               <p class="p" style="color:white;">Diesel | 15.00 KM/L | Manual
+                AMT, Automatic, Manual</p>
+                <div class="row">
+                  <div class="col" style="color: white;">Ex-Showroom Price
+                    <p> 13.49 - 17.49 Lakh</p>
+                  </div>
+                  <div class="col" style="color: white;">EMI Starts at
+                    <p>25,690</p>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col py-2">
+                      <a href="" style="text-decoration: none; color: white;">Compare</a>
+                    </div>
+                    <div class="col py-2">
+                      <a href="" style="text-decoration: none; color: white;">Variants</a>
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+
+
+
+        <div class="col-mb-4 col-lg-4  card " style="width: 23rem;">
+          <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fxuv300%2Fmahindra-xuv300.jpg%3Fv%3D26&w=1080&q=75" alt="" width="100%">
+          <h3 class="" style="color: white;">Mahindra XUV300</h3>
+               <p class="p" style="color:white;">Petrol, Diesel | 20.00KM/L | 
+                AMT,Manual</p>
+                <div class="row">
+                  <div class="col" style="color: white;">Ex-Showroom Price
+                    <p> 7.49 - 14.49 Lakh</p>
+                  </div>
+                  <div class="col" style="color: white;">EMI Starts at
+                    <p>16,690</p>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col py-2">
+                      <a href="" style="text-decoration: none; color: white;">Compare</a>
+                    </div>
+                    <div class="col py-2">
+                      <a href="" style="text-decoration: none; color: white;">Variants</a>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </div>
+  <!--row1 end-->
+
+
+  <!--row2 start-->
+
+    <div class="row  d-flex justify-content-center align-items-center p-3">
+      <div class="col-mb-4 col-lg-4  card " style="width: 23rem;">
+          <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fscorpio-n%2Fmahindra-scorpio-n.jpg%3Fv%3D25&w=1920&q=75" alt="" width="100%">
+          <h3 class="" style="color: white;">Mahindra Scorpio-N</h3>
+               <p class="p" style="color:white;">Petrol, Diesel | 18.50KM/L | Automatic, Manual</p>
+                <div class="row">
+                  <div class="col" style="color: white;">Ex-Showroom Price
+                    <p> 13.49 - 24.49 Lakh</p>
+                  </div>
+                  <div class="col" style="color: white;">EMI Starts at
+                    <p>28,690</p>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col py-2">
+                      <a href="" style="text-decoration: none; color: white;">Compare</a>
+                    </div>
+                    <div class="col py-2">
+                      <a href="" style="text-decoration: none; color: white;">Variants</a>
+                    </div>
+                  </div>
+                </div>
+      </div>
+
+
+
+      <div class="col-mb-4 col-lg-4  card "style="width: 23rem;">
+        <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fbolero-pik-up%2Fmahindra-bolero-pik-up.jpg%3Fv%3D12&w=1080&q=75" alt="" width="100%">
+        <h3 class="" style="color: white;">Mahindra Bolero Pik-Up</h3>
+             <p class="p" style="color:white;">Diesel,CNG | 17.00 KM/L | Manual</p>
+              <div class="row">
+                <div class="col" style="color: white;">Ex-Showroom Price
+                  <p> 7.49 - 10.49 Lakh</p>
+                </div>
+                <div class="col" style="color: white;">EMI Starts at
+                  <p>16,690</p>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col py-2">
+                    <a href="" style="text-decoration: none; color: white;">Compare</a>
+                  </div>
+                  <div class="col py-2">
+                    <a href="" style="text-decoration: none; color: white;">Variants</a>
+                  </div>
+                </div>
+              </div>
+      </div>
+
+
+
+
+      <div class="col-mb-4 col-lg-4 card " style="width: 23rem;">
+        <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fbolero-neo%2Fmahindra-bolero-neo.jpg%3Fv%3D16&w=1080&q=75" alt="" width="100%">
+        <h3 class="" style="color: white;">Mahindra Bolero Neo</h3>
+             <p class="p" style="color:white;">Diesel|17.00 KM/L | Manual</p>
+              <div class="row">
+                <div class="col" style="color: white;">Ex-Showroom Price
+                  <p> 9.9 - 12.49 Lakh</p>
+                </div>
+                <div class="col" style="color: white;">EMI Starts at
+                  <p>20,690</p>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col py-2">
+                    <a href="" style="text-decoration: none; color: white;">Compare</a>
+                  </div>
+                  <div class="col py-2">
+                    <a href="" style="text-decoration: none; color: white;">Variants</a>
+                  </div>
+                </div>
+              </div>
+      </div>
+  </div>
+
+  <!--row2 end-->
+
+  <!--row3 start-->
+
+  <div class="row  d-flex  p-3 justify-content-center align-items-center">
+    <div class="col-mb-4 col-lg-4  card " style="width: 23rem;">
+        <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fbolero%2Fmahindra-bolero.jpg%3Fv%3D29&w=1080&q=75" alt="" width="100%">
+        <h3 class="" style="color: white;">Mahindra Bolero</h3>
+             <p class="p" style="color:white;">Diesel | 16.00KM/L | Manual</p>
+              <div class="row">
+                <div class="col" style="color: white;">Ex-Showroom Price
+                  <p> 9.49 - 10.49 Lakh</p>
+                </div>
+                <div class="col" style="color: white;">EMI Starts at
+                  <p>20,690</p>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col py-2">
+                    <a href="" style="text-decoration: none; color: white;">Compare</a>
+                  </div>
+                  <div class="col py-2">
+                    <a href="" style="text-decoration: none; color: white;">Variants</a>
+                  </div>
+                </div>
+              </div>
+    </div>
+
+
+
+    <div class="col-mb-4 col-lg-4    card "style="width: 23rem;">
+      <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fxuv700%2Fmahindra-xuv700.jpg%3Fv%3D13&w=1080&q=75" alt="" width="100%">
+      <h3 class="" style="color: white;">Mahindra XUV700 </h3>
+           <p class="p" style="color:white;">Petrol, Diesel | 16.00 KM/L | Automatic, Manual</p>
+            <div class="row">
+              <div class="col" style="color: white;">Ex-Showroom Price
+                <p> 13.49 - 26.49 Lakh</p>
+              </div>
+              <div class="col" style="color: white;">EMI Starts at
+                <p>29,690</p>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col py-2">
+                  <a href="" style="text-decoration: none; color: white;">Compare</a>
+                </div>
+                <div class="col py-2">
+                  <a href="" style="text-decoration: none; color: white;">Variants</a>
+                </div>
+              </div>
+            </div>
+    </div>
+
+
+
+
+    <div class="col-mb-4 col-lg-4    card " style="width: 23rem;">
+      <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fxuv400%2Fmahindra-xuv400.jpg%3Fv%3D24&w=1080&q=75" alt="" width="100%">
+      <h3 class="" style="color: white;">Mahindra XUV400</h3>
+           <p class="p" style="color:white;">Electic | 456.00 Km/Full Charge | Automatic </p>
+            <div class="row">
+              <div class="col" style="color: white;">Ex-Showroom Price
+                <p> 15.49 - 17.49 Lakh</p>
+              </div>
+              <div class="col" style="color: white;">EMI Starts at
+                <p>32,690</p>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col py-2">
+                  <a href="" style="text-decoration: none; color: white;">Compare</a>
+                </div>
+                <div class="col py-2">
+                  <a href="" style="text-decoration: none; color: white;">Variants</a>
+                </div>
+              </div>
+            </div>
+    </div>
+</div>
+
+  <!--row3 end-->
+
+
+  <!--row4 start-->
+
+
+<div class="row  d-flex  p-3 justify-content-center align-items-center">
+  <div class="col-mb-4 col-lg-4   card " style="width: 23rem;">
+      <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fbolero-camper%2Fmahindra-bolero-camper.jpg%3Fv%3D15&w=1080&q=75" alt="" width="100%">
+      <h3 class="" style="color: white;">Mahindra Bolero Camper</h3>
+           <p class="p" style="color:white;">Diesel | 13.86KM/L | Manual</p>
+            <div class="row">
+              <div class="col" style="color: white;">Ex-Showroom Price
+                <p> 8.49 - 9.49 Lakh</p>
+              </div>
+              <div class="col" style="color: white;">EMI Starts at
+                <p>18,690</p>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col py-2">
+                  <a href="" style="text-decoration: none; color: white;">Compare</a>
+                </div>
+                <div class="col py-2">
+                  <a href="" style="text-decoration: none; color: white;">Variants</a>
+                </div>
+              </div>
+            </div>
+  </div>
+
+
+
+  <div class="col-mb-4 col-lg-4    card "style="width: 23rem;">
+    <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fmarazzo%2Fmahindra-marazzo.jpg%3Fv%3D19&w=1080&q=75" alt="" width="100%">
+    <h3 class="" style="color: white;">Mahindra Marazzo </h3>
+         <p class="p" style="color:white;">Diesel | 17.60 KM/L | Manual </p>
+          <div class="row">
+            <div class="col" style="color: white;">Ex-Showroom Price
+              <p> 14.49 - 16.49 Lakh</p>
+            </div>
+            <div class="col" style="color: white;">EMI Starts at
+              <p>29,690</p>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col py-2">
+                <a href="" style="text-decoration: none; color: white;">Compare</a>
+              </div>
+              <div class="col py-2">
+                <a href="" style="text-decoration: none; color: white;">Variants</a>
+              </div>
+            </div>
+          </div>
+  </div>
+
+
+
+
+  <div class="col-mb-4 col-lg-4    card " style="width: 23rem;">
+    <img  class="img container-fluid"  src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fmahindra%2Fthar%2Fmahindra-thar.jpg%3Fv%3D36&w=1080&q=75" alt="" width="100%">
+    <h3 class="" style="color: white;">Mahindra Thar</h3>
+         <p class="p" style="color:white;">Petrol, Diesel|15.20 KM/L | Automatic,Manual</p>
+          <div class="row">
+            <div class="col" style="color: white;">Ex-Showroom Price
+              <p> 11.49 - 17.49 Lakh</p>
+            </div>
+            <div class="col" style="color: white;">EMI Starts at
+              <p>23,690</p>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col py-2">
+                <a href="" style="text-decoration: none; color: white;">Compare</a>
+              </div>
+              <div class="col py-2">
+                <a href="" style="text-decoration: none; color: white;">Variants</a>
+              </div>
+            </div>
+          </div>
+  </div>
+</div>
+
+<!--row4 end-->
+
+</div>
+
+
+
+<!--Cards close-->
+
+
+<!--Footer Start-->
+
+<div class="footer bg-dark p-3">
+  <h4 class="text-white text-center">@ 2024 All Rights are Reserved</h4>
+</div>
+
+
+<!--Footer End-->
+
+
+
+
+</body>
+</html>
